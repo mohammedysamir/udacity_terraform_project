@@ -1,0 +1,26 @@
+﻿Estimate summary
+Upfront cost,Monthly cost,Total 12 months cost,Currency
+0,9355.27,112263.24,USD
+,,* Includes upfront cost
+
+
+Detailed Estimate
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Status,Configuration summary
+My Estimate,US East (N. Virginia),,VPN Connection,0,567,6804.00,USD,,"Working days per month (22), Number of subnet associations (4)"
+My Estimate,US East (N. Virginia),,Network Address Translation (NAT) Gateway,0,33.3,399.60,USD,,Number of NAT Gateways (1)
+My Estimate,US East (N. Virginia),,Gateway Load Balancer,0,80.30000000000001,963.60,USD,,"Number of Availability Zones that Gateway Load Balancer is deployed to (2), Number of Gateway Load Balancer Endpoints (1), Total processed bytes (10 GB per hour)"
+My Estimate,US East (N. Virginia),,Amazon CloudFront,0,2.8200000000000003,33.84,USD,,"Data transfer out to internet (10 GB per month), Number of requests (HTTPS) (10000 per month), Data transfer out to internet (10 GB per month), Number of requests (HTTPS) (500 per month), Data transfer out to internet (10 GB per month), Number of requests (HTTPS) (8000 per month)"
+My Estimate,US East (N. Virginia),Master nodes,Amazon RDS for SQL server,0,3607.58,43290.96,USD,,"Storage for each RDS instance (Provisioned IOPS SSD (io1)), Provisioning IOPS (1000), Storage amount (100 GB), Number of nodes (2), Instance type (db.t3.xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment option (Multi-AZ), License (License included), Database edition (Standard), Pricing strategy (OnDemand), Cost for one month of retention (per vCPU per month) (1.5000000000), Cost for total retention (per vCPU per month) (1.50), Additional backup storage (100 GB)"
+My Estimate,US East (N. Virginia),,S3 Standard,0,2.61,31.32,USD,,"S3 Standard storage (100 GB per month), PUT, COPY, POST, LIST requests to S3 Standard (8000), GET, SELECT, and all other requests from S3 Standard (10000), Data returned by S3 Select (100 GB per month), Data scanned by S3 Select (100 GB per month)"
+My Estimate,US East (N. Virginia),,S3 Intelligent - Tiering,0,2.37,28.44,USD,,"S3 INT Average Object Size (16 MB), Percentage of Storage in INT-Frequent Access Tier (1), S3 INT storage (100 GB per month), PUT, COPY, POST, LIST requests to S3 INT (8000), GET, SELECT, and all other requests from S3 INT (10000), Lifecycle Transition requests (500)"
+My Estimate,US East (N. Virginia),,S3 Standard - Infrequent Access,0,0.34,4.08,USD,,"S3 Standard-IA storage (10 GB per month), PUT, COPY, POST, LIST requests to S3 Standard-IA (100), GET, SELECT, and all other requests from S3 Standard-IA (500), Lifecycle Transition requests (1000), Data retrievals (10 GB per month), Data returned by S3 Select (10 GB per month)"
+My Estimate,US East (N. Virginia),,S3 Glacier Flexible Retrieval,0,0,0.00,USD,,"S3 Glacier Flexible Retrieval Average Object Size (16 MB), Provisioned Capacity Units (0), null (0)"
+My Estimate,US East (N. Virginia),,Data Transfer,0,0,0.00,USD,,
+My Estimate,US East (N. Virginia),application servers,Amazon EC2 ,0,562.4300000000001,6749.16,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 5), Advance EC2 instance (t3.large), Pricing strategy (On-Demand Utilization: 730 Hours/Month), Enable monitoring (disabled), EBS Storage amount (100 GB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+My Estimate,US East (N. Virginia),web servers,Amazon EC2 ,0,439.168,5270.02,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 8), Advance EC2 instance (t3a.large), Pricing strategy (On-Demand Utilization: 730 Hours/Month), Enable monitoring (disabled), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+My Estimate,US East (N. Virginia),Read replicas,Amazon RDS for MySQL,0,4057.35,48688.20,USD,,"Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (50 GB), Quantity (2), Instance type (db.m2.4xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment option (Multi-AZ), Pricing strategy (OnDemand), Additional backup storage (50 GB)"
+
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
